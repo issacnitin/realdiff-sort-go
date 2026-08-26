@@ -1,3 +1,3 @@
-module github.com/issacnitin/behaviordiff-sort-go
+module github.com/issacnitin/realdiff-sort-go
 
 go 1.23
