@@ -40,13 +40,5 @@ func checkoutTotal(listPrice int) (int, string) {
 }
 
 func exerciseCoverage() int {
-	total := 0
-	for value := 0; value < 40; value++ {
-		total += normalize(value)
-	}
-	return total
-}
-
-func normalize(value int) int {
-	return value + 1
+	return exerciseComparisonBreadth()
 }

@@ -1,0 +1,125 @@
+package sortdemo
+
+func exerciseComparisonBreadth() int {
+	return step000(1) + step001(1) + step002(1) + step003(1) + step004(1) +
+		step005(1) + step006(1) + step007(1) + step008(1) + step009(1) +
+		step010(1) + step011(1) + step012(1) + step013(1) + step014(1) +
+		step015(1) + step016(1) + step017(1) + step018(1) + step019(1) +
+		step020(1) + step021(1) + step022(1) + step023(1) + step024(1) +
+		step025(1) + step026(1) + step027(1) + step028(1) + step029(1) +
+		step030(1) + step031(1) + step032(1) + step033(1) + step034(1) +
+		step035(1) + step036(1) + step037(1) + step038(1) + step039(1) +
+		step040(1) + step041(1) + step042(1) + step043(1) + step044(1) +
+		step045(1) + step046(1) + step047(1) + step048(1) + step049(1) +
+		step050(1) + step051(1) + step052(1) + step053(1) + step054(1) +
+		step055(1) + step056(1) + step057(1) + step058(1) + step059(1) +
+		step060(1) + step061(1) + step062(1) + step063(1) + step064(1) +
+		step065(1) + step066(1) + step067(1) + step068(1) + step069(1) +
+		step070(1) + step071(1) + step072(1) + step073(1) + step074(1) +
+		step075(1) + step076(1) + step077(1) + step078(1) + step079(1) +
+		step080(1) + step081(1) + step082(1) + step083(1) + step084(1) +
+		step085(1) + step086(1) + step087(1) + step088(1) + step089(1) +
+		step090(1) + step091(1) + step092(1) + step093(1) + step094(1) +
+		step095(1) + step096(1) + step097(1) + step098(1) + step099(1)
+}
+
+func step000(value int) int { return value + 0 }
+func step001(value int) int { return value + 1 }
+func step002(value int) int { return value + 2 }
+func step003(value int) int { return value + 3 }
+func step004(value int) int { return value + 4 }
+func step005(value int) int { return value + 5 }
+func step006(value int) int { return value + 6 }
+func step007(value int) int { return value + 7 }
+func step008(value int) int { return value + 8 }
+func step009(value int) int { return value + 9 }
+func step010(value int) int { return value + 10 }
+func step011(value int) int { return value + 11 }
+func step012(value int) int { return value + 12 }
+func step013(value int) int { return value + 13 }
+func step014(value int) int { return value + 14 }
+func step015(value int) int { return value + 15 }
+func step016(value int) int { return value + 16 }
+func step017(value int) int { return value + 17 }
+func step018(value int) int { return value + 18 }
+func step019(value int) int { return value + 19 }
+func step020(value int) int { return value + 20 }
+func step021(value int) int { return value + 21 }
+func step022(value int) int { return value + 22 }
+func step023(value int) int { return value + 23 }
+func step024(value int) int { return value + 24 }
+func step025(value int) int { return value + 25 }
+func step026(value int) int { return value + 26 }
+func step027(value int) int { return value + 27 }
+func step028(value int) int { return value + 28 }
+func step029(value int) int { return value + 29 }
+func step030(value int) int { return value + 30 }
+func step031(value int) int { return value + 31 }
+func step032(value int) int { return value + 32 }
+func step033(value int) int { return value + 33 }
+func step034(value int) int { return value + 34 }
+func step035(value int) int { return value + 35 }
+func step036(value int) int { return value + 36 }
+func step037(value int) int { return value + 37 }
+func step038(value int) int { return value + 38 }
+func step039(value int) int { return value + 39 }
+func step040(value int) int { return value + 40 }
+func step041(value int) int { return value + 41 }
+func step042(value int) int { return value + 42 }
+func step043(value int) int { return value + 43 }
+func step044(value int) int { return value + 44 }
+func step045(value int) int { return value + 45 }
+func step046(value int) int { return value + 46 }
+func step047(value int) int { return value + 47 }
+func step048(value int) int { return value + 48 }
+func step049(value int) int { return value + 49 }
+func step050(value int) int { return value + 50 }
+func step051(value int) int { return value + 51 }
+func step052(value int) int { return value + 52 }
+func step053(value int) int { return value + 53 }
+func step054(value int) int { return value + 54 }
+func step055(value int) int { return value + 55 }
+func step056(value int) int { return value + 56 }
+func step057(value int) int { return value + 57 }
+func step058(value int) int { return value + 58 }
+func step059(value int) int { return value + 59 }
+func step060(value int) int { return value + 60 }
+func step061(value int) int { return value + 61 }
+func step062(value int) int { return value + 62 }
+func step063(value int) int { return value + 63 }
+func step064(value int) int { return value + 64 }
+func step065(value int) int { return value + 65 }
+func step066(value int) int { return value + 66 }
+func step067(value int) int { return value + 67 }
+func step068(value int) int { return value + 68 }
+func step069(value int) int { return value + 69 }
+func step070(value int) int { return value + 70 }
+func step071(value int) int { return value + 71 }
+func step072(value int) int { return value + 72 }
+func step073(value int) int { return value + 73 }
+func step074(value int) int { return value + 74 }
+func step075(value int) int { return value + 75 }
+func step076(value int) int { return value + 76 }
+func step077(value int) int { return value + 77 }
+func step078(value int) int { return value + 78 }
+func step079(value int) int { return value + 79 }
+func step080(value int) int { return value + 80 }
+func step081(value int) int { return value + 81 }
+func step082(value int) int { return value + 82 }
+func step083(value int) int { return value + 83 }
+func step084(value int) int { return value + 84 }
+func step085(value int) int { return value + 85 }
+func step086(value int) int { return value + 86 }
+func step087(value int) int { return value + 87 }
+func step088(value int) int { return value + 88 }
+func step089(value int) int { return value + 89 }
+func step090(value int) int { return value + 90 }
+func step091(value int) int { return value + 91 }
+func step092(value int) int { return value + 92 }
+func step093(value int) int { return value + 93 }
+func step094(value int) int { return value + 94 }
+func step095(value int) int { return value + 95 }
+func step096(value int) int { return value + 96 }
+func step097(value int) int { return value + 97 }
+func step098(value int) int { return value + 98 }
+func step099(value int) int { return value + 99 }
