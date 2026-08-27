@@ -1,7 +1,5 @@
 package sortdemo
 
-const breakPriorityTiesByCode = false
+import "sort"
 
-func configurationBoundary[T any](value T) T {
-	return value
-}
+var sortRules = sort.SliceStable
