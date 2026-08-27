@@ -2,8 +2,6 @@ package sortdemo
 
 import "sort"
 
-var sortRules = sort.SliceStable
-
-func configurationBoundary[T any](value T) T {
-	return value
+func sortRules[T ~[]DiscountRule](rules T, less func(left, right int) bool) {
+	sort.SliceStable(rules, less)
 }
