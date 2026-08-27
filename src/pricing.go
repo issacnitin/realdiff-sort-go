@@ -7,14 +7,6 @@ type DiscountRule struct {
 	PercentOff   int
 }
 
-func byPriority(rules []DiscountRule) []DiscountRule {
-	ordered := append([]DiscountRule(nil), rules...)
-	sortRules(ordered, func(left, right int) bool {
-		return ordered[left].Priority < ordered[right].Priority
-	})
-	return ordered
-}
-
 func selectDiscount(listPrice int) DiscountRule {
 	rules := []DiscountRule{
 		{Code: "INELIGIBLE_00", Priority: 3, MinimumTotal: 1000, PercentOff: 5},

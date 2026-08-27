@@ -2,6 +2,10 @@ package sortdemo
 
 import "sort"
 
-func sortRules[T ~[]DiscountRule](rules T, less func(left, right int) bool) {
-	sort.SliceStable(rules, less)
+func byPriority(rules []DiscountRule) []DiscountRule {
+	ordered := append([]DiscountRule(nil), rules...)
+	sort.SliceStable(ordered, func(left, right int) bool {
+		return ordered[left].Priority < ordered[right].Priority
+	})
+	return ordered
 }
